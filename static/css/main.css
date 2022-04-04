@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #8b7108;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.75;
+}
+
+h2,
+p {
+    color: #2b2202;
+    font-weight: 500;
+    opacity: 0.70;
+}
+
+h3 {
+    color: #8b7108;
+    font-weight: 600;
+    opacity: 0.70;
+}
+
+mainleat {
+    font-family: "Overpass:ital", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #E5B80B, #FFF08D);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    background: white;
+    display: flex;
+    min-height: 70vh;
+    width: 80%;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    position: relative;
+}
+.leatexchange {
+    flex: 2;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tokendashboard {
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link h2{
+    padding: 0rem 1rem;
+    color: #161202;
+}
+
+.coins_tokens {
+    margin-bottom: 3rem;
+}
+
+.coins_tokens input{
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.3)
+    );
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.buy_sell_button {
+    margin-bottom: 2rem;
+}
+
+.buy_button {
+    display: inline-block;
+    background: linear-gradient(to left top,
+    rgba(4, 241, 75, 0.8),
+    rgba(255, 255, 255, 0.6)
+    );
+    border-radius: 50%;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122, 0.2);
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    transition-duration: 0.5s;   
+}
+
+.sell_button {
+    display: inline-block;
+    background: linear-gradient(to left top,
+    rgba(248, 3, 3, 0.8),
+    rgba(255, 255, 255, 0.6)
+    );
+    border-radius: 50%;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122, 0.2);
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    transition-duration: 0.5s;
+}
+
+.sell_button:hover,
+.buy_button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+.cards {
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    background: linear-gradient(to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.6)
+    );
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122, 0.2);
+    justify-content: space-between;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.percentage,
+.amount,
+.value {
+    font-weight: bold;
+    background: linear-gradient(to right top, #E5B80B, #463c01);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0.5rem 0rem ;
+}
+
+.disk1,
+.disk3,
+.disk2 {
+    background: white;
+    background: linear-gradient(to right bottom,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.disk1 {
+    top: 1%;
+    right: 1%;
+
+}
+
+.disk2 {
+    bottom: 7%;
+    left: 50%;
+}
+
+.disk3 {
+    bottom: 45%;
+    left: 5%;
+}
