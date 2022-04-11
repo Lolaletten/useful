@@ -1,0 +1,8 @@
+#NOTE: This is just an example, you might have different version, but same principle
+solana config set --url https://api.devnet.solana.com
+#Just check again
+solana config get
+
+solana airdrop 1
+#or plan B :)
+solana airdrop 1 <RECIPIENT_ACCOUNT_ADDRESS> --url https://api.devnet.solana.com
